@@ -1,0 +1,40 @@
+/*  Comments for css */
+/* Selectors */
+/* body is the selector */
+/* {} it the declaration */
+/* font-size is the property */
+/* property value */
+body {
+  background-color: gray;
+  font-size: 1rem;
+}
+
+/* type selector
+Also called as element selector
+*/
+h3 {
+  color: rgb(52, 197, 59);
+}
+
+h2 {
+  color: grey;
+}
+
+/* selector grouping in css */
+h4,
+h5,
+h6 {
+  color: rgb(21, 37, 32);
+}
+
+/* ID selector */
+#div1 {
+  color: greenyellow;
+  background-color: black;
+}
+
+/* Class selector */
+.div1 {
+  color: aqua;
+  background-color: black;
+}

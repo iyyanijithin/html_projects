@@ -5,12 +5,28 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/styles.css">
     <title>Document</title>
+    <!--
+        Internal CSS
+        This lacks flexibility to share between multipe pages
+    -->
+    <style>
+        h2 {
+
+            color:red;
+            font-size: 1rem;
+
+        }
+    </style>
 </head>
 
 <body>
     <img src="./images/coffee.png" alt="coffee logo" id="logo">
-    <h3>Coffee Shop</h3>
+    <!-- Inline /internal CSS -->
+    <h3 style="color:blue; font-size: 2rem;">Coffee Shop</h3>
+    <h2>Hello world internal css</h2>
+    <h3>Hello world  styled via external css</h3>
     <ul>
         <li><a href="index.html">Home</a></li>
         <li><a href="about.html">About</a></li>
@@ -20,7 +36,7 @@
     </ul>
     <img src="./images/background.jpg" alt="" width="100%" height="800">
     <h2>Our Numbers</h2>
-    <table style="border: 2px solid black;">
+    <table>
         <tr>
             <th>City</th>
             <th>Mumbai</th>
